@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  padding: 3vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+}
+
+header > img {
+  max-width: 100%;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 1;
+  gap: 1em;
+  list-style-type: none;
+}
+
+header ul > li > a {
+  text-decoration: none;
+}
+
+.container {
+  padding-top: 13vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .photo {
+  margin-top: 5em;
+  padding: 1em 0;
+  background-color: #ccc;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .photo > img {
+  max-width: 20%;
+}
+
+.container .photo .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3em;
+}
+
+.container .photo .right > span:nth-child(1) {
+  font-size: 2.5em;
+}
+
+.container .photo .right > span:nth-child(2) {
+  font-size: 1.5em;
+}
+
+.container .portfolid {
+  margin-top: 5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .portfolid > .left {
+  width: 100%;
+  gap: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .portfolid > .left > span {
+  font-size: 2.5em;
+}
+
+.container .portfolid > .left > a {
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/me.jpg");
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 0px solid black;
+}
+
+.container .portfolid > .left > a:hover {
+  border: 5px solid black;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container .portfolid > .right {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2em;
+}
+
+.container .portfolid > .right > span {
+  font-size: 2em;
+}
+
+.container .end {
+  margin-top: 5em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2em;
+}
+
+.container .end > span {
+  font-size: 2em;
+}
+
+.container .end > button {
+  background-color: black;
+  border: none;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border-radius: 10px;
+}
+
+.container .end > button:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-color: #9dda61;
+}
+/*# sourceMappingURL=main.css.map */
