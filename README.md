@@ -16,4 +16,4 @@ JS
 ```
 
 ## License
-MIT
+Wenzao team
